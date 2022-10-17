@@ -110,6 +110,8 @@ int main()
 	// Function call
 	dijkstra(graph, 0);
 
+	cout << "Dijkstra Algorithm Completed" << nl;
+
 	return 0;
 }
 

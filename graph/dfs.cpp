@@ -59,11 +59,13 @@ int main()
 	g.addEdge(2, 3);
 	g.addEdge(3, 3);
 
-	cout << "Following is Depth First Traversal"
+	cout << "Following is Depth First Traversal for the Graph"
 			" (starting from vertex 2) \n";
 
 	// Function call
 	g.DFS(2);
+
+	cout << "Depth First Traversal Completed" << nl;
 
 	return 0;
 }
