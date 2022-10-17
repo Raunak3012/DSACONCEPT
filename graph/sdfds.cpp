@@ -12,5 +12,7 @@ int floor(float a) {
 
 int main() {
 
+    cout << "General Algorithm Completed" << nl;
+
     return 0;
 }

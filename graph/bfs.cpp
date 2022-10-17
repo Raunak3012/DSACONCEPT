@@ -85,9 +85,11 @@ int main()
     g.addEdge(2, 3);
     g.addEdge(3, 3);
  
-    cout << "Following is Breadth First Traversal "
+    cout << "Following is Breadth First Traversal for the Graph"
          << "(starting from vertex 2) \n";
     g.BFS(2);
+
+    cout << "Breadth First Search Traversal Completed" <<nl;
  
     return 0;
 }
